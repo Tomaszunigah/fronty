@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fronty/static/css/main.5dd9829f.css",
-    "main.js": "/fronty/static/js/main.b75c028d.js",
+    "main.js": "/fronty/static/js/main.2a4f799a.js",
     "index.html": "/fronty/index.html",
     "main.5dd9829f.css.map": "/fronty/static/css/main.5dd9829f.css.map",
-    "main.b75c028d.js.map": "/fronty/static/js/main.b75c028d.js.map"
+    "main.2a4f799a.js.map": "/fronty/static/js/main.2a4f799a.js.map"
   },
   "entrypoints": [
     "static/css/main.5dd9829f.css",
-    "static/js/main.b75c028d.js"
+    "static/js/main.2a4f799a.js"
   ]
 }
