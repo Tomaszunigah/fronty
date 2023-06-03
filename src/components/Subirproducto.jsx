@@ -54,7 +54,7 @@ const SubirProducto = () => {
   //CONSULTAs BD
 
   const consultaApiComunas = async () => {
-    const endpoint = "https://elbakend-production.up.railway.app";
+    const endpoint = "https://elbakend-production.up.railway.app/comunas";
     const response = await fetch(endpoint);
     const data = await response.json();
     /* console.log("dataaa") */
@@ -68,7 +68,7 @@ const SubirProducto = () => {
   };
 
   const consultaApiCategorias = async () => {
-    const endpoint2 = "https://elbakend-production.up.railway.app";
+    const endpoint2 = "https://elbakend-production.up.railway.app/categorias";
     const response2 = await fetch(endpoint2);
     const data2 = await response2.json();
     /* console.log("dataaa") */

@@ -47,7 +47,7 @@ const GaleriaMisVentas = () => {
                     {totalProductos == undefined ?
                         <Loading /> :
                         totalProductos.map(producto => (
-                            <div key={producto.id} className="col d-flex justify-content-center">
+                            <div key={Math.random} className="col d-flex justify-content-center">
                                 <Card
                                     imagen={producto.imagen}
                                     nombre={producto.nombre}
