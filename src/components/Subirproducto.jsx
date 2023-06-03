@@ -94,7 +94,7 @@ const SubirProducto = () => {
       });
       alert("Producto registrado con éxito")
       setImages([]);
-      navigate("/");
+      navigate("/fronty");
     } catch (error) {
       alert("Algo salió mal ...");
       console.log(error);
@@ -265,7 +265,7 @@ const SubirProducto = () => {
             type="submit"
             onClick={(e) => {
               e.preventDefault();
-              window.location.href = "/";
+              window.location.href = "/fronty";
             }}
             className="btn btn-outline-dark container me-1"
           >

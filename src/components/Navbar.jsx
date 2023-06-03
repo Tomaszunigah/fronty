@@ -35,7 +35,7 @@ const Navbar = () => {
   const logout = () => {
     setLoginContext(null);
     localStorage.removeItem("token");
-    navigate("/");
+    navigate("/fronty");
   };
 
   useEffect(() => {
@@ -72,7 +72,7 @@ const Navbar = () => {
                     alert("Debes logearte");
                     navigate("/login");
                   }
-                : () => navigate("/")
+                : () => navigate("/fronty")
             }
             className="text-black text-nowrap m-1 anaglyph"
             style={{ textDecoration: "none" }}
@@ -180,7 +180,7 @@ const Navbar = () => {
                   className="btn btn-outline-secondary"
                 >
                   <Link
-                    to="/"
+                    to="/fronty"
                     className="text-black text-nowrap"
                     style={{ textDecoration: "none" }}
                   >
